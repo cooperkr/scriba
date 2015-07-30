@@ -1,0 +1,10 @@
+Thu, 30 Jul 2015 10:53:00 -0400
+README.rdoc	Wed, 29 Jul 2015 14:25:32 -0400
+app/controllers/application_controller.rb	Wed, 29 Jul 2015 14:25:32 -0400
+app/controllers/pages_controller.rb	Thu, 30 Jul 2015 10:25:08 -0400
+app/controllers/transcriptions_controller.rb	Wed, 29 Jul 2015 14:39:53 -0400
+app/helpers/application_helper.rb	Wed, 29 Jul 2015 14:25:32 -0400
+app/helpers/pages_helper.rb	Thu, 30 Jul 2015 10:22:28 -0400
+app/helpers/transcriptions_helper.rb	Wed, 29 Jul 2015 14:39:53 -0400
+app/models/transcription.rb	Wed, 29 Jul 2015 15:15:05 -0400
+app/uploaders/picture_uploader.rb	Thu, 30 Jul 2015 09:47:11 -0400
