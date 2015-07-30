@@ -11,9 +11,10 @@
 </p>
 
 <p>
-  <strong>Picture:</strong>
-  <%= @transcription.picture %>
+  <strong>Picture:</strong><p>
+  <%= image_tag(@transcription.picture_url, :width => 600) if @transcription.picture.present? %></p>
 </p>
+
 
 <p>
   <strong>Description:</strong>
@@ -24,6 +25,8 @@
   <strong>Transcription:</strong>
   <%= @transcription.transcription %>
 </p>
+
+
 
 <%= link_to 'Edit', edit_transcription_path(@transcription) %> |
 <%= link_to 'Back', transcriptions_path %>
